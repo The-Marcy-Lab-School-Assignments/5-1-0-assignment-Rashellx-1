@@ -1,8 +1,8 @@
 import getId from "../utils/getId";
 
 class CartItem {
-  constructor(id, name, price) {
-    this.id = id
+  constructor(name, price) {
+    this.id = getId()
     this.name = name
     this.price = price
   }
