@@ -14,7 +14,7 @@
       "ShTe6": 1,
       "ShTe7": 1,
       "ShTe8": 1,
-      "ShTe9": 0,
+      "ShTe9": 1,
       "ShTe10": 0,
       "ShTe11": 0,
       "ShTe12": 0
@@ -71,7 +71,7 @@
   },
   "humanReadable": {
     "CartItem Tests": "3/3",
-    "finalTestScore": "FINAL SCORE: 11/15",
-    "ShoppingCart Tests": "8/12"
+    "finalTestScore": "FINAL SCORE: 12/15",
+    "ShoppingCart Tests": "9/12"
   }
 }

@@ -31,6 +31,9 @@ class ShoppingCart {
     // }
     // return total;
   }
+  static listAll() {
+    return [...this.#allCarts]
+  }
 
 }
 
