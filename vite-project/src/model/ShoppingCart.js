@@ -18,9 +18,24 @@ class ShoppingCart {
     return [...this.#cartItems] //creating shallow copy of #cartItems array
   }
   removeItem(id) {
+    // Removing item from the instance cart based on given id
+    // using splice to remove and .findindex to find the index on the item by its id.
     this.#cartItems.splice(this.#cartItems.findIndex((item) => item.id === id), 1)
+  }
+  getTotal() {
+    return this.#cartItems.reduce((total, item) => total + item.price, 0);
+    // GETTING TOTAL USING FOR LOOP BELOW:
+    // let total = 0;
+    // for (let i = 0; i < this.#cartItems.length; i++) {
+    //   total += this.#cartItems[i].price;
+    // }
+    // return total;
   }
 
 }
+
+
+
+
 
 export default ShoppingCart;
